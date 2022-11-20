@@ -1,0 +1,129 @@
+#Carousel1{
+
+  width: 800px ;
+  height: 900px;
+  margin: 20px auto;
+}
+.intro-text{
+  margin: 20px auto;
+  padding-left: 500px;
+  font-family: 'Raleway', sans-serif;
+}
+.text1{
+ background-color: #F1D3B3;
+ margin: auto;
+ opacity: 0.8;
+ color: #282A3A;
+}
+#abc1{
+  background-color: #008CBA;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  background: #3B5998;
+}
+
+.btn {
+  margin: 30px auto;
+}
+
+.navbar-brand span {
+  font-size: 0.6em;
+}
+
+.navbar-nav {
+  float: right;
+  margin-top: 1.2em;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-default {
+  background: none !important;
+  border: none !important;
+  padding: 1.5em 0;
+}
+
+.navbar-brand h1 a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand h1 a:hover {
+  opacity: 0.7;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 20;
+}
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav>li>a {
+  padding: 0px 15px;
+  color: #fff;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 0 7px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #3B5998;
+  color: #283B66;
+  opacity: 1.0;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: #3B5998;
+  color: #283B66;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #283B66;
+  background-color: #3B5998;
+}

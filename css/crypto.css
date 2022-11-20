@@ -1,0 +1,101 @@
+
+
+ .text{
+   color: #FCDDB0;
+ }
+ p{
+   padding-top:30px;
+   color: #FCDDB0;
+ }
+h1{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FCDDB0;
+}
+h1:hover{
+  transition: transform .2s;
+  transform: scale(1.5);
+}
+body{
+
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(https://www.vyopta.com/wp-content/uploads/2019/01/iStock-952039816.jpg);
+}
+.top{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.text{
+  padding-bottom: 50px;
+
+}
+
+
+body {
+    &.BTC {
+        background-color: rgba(0,0,0,0.7);
+        background-image: url('/Users/pranavdhiman/Desktop/WebD/blockchain/images/exchange-rate.pngN');
+    }
+
+    &.ETH {
+        background-color: rgba(0, 0, 0, 0.7);
+        background-image: url('/Users/pranavdhiman/Desktop/WebD/blockchain/images/exchange-rate.png');
+    }
+}
+
+
+.wrapper {
+    display: flex;
+
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        margin-bottom: 20px;
+        color: $color-primary;
+    }
+
+  form {
+        display: flex;
+
+
+        input,
+        select {
+
+            border: 0;
+            background: $color-primary;
+            padding: 10px;
+            color: #fff;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        option {
+
+            &:selected {
+                background: $color-secondary;
+            }
+
+            &:checked {
+                background: $color-secondary;
+            }
+        }
+    }
+
+    p,
+    span {
+        color: #fff;
+    }
+
+    span {
+        margin-bottom: 50px;
+    }
+}
